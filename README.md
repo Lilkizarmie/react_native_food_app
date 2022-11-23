@@ -1,2 +1,21 @@
 # React_Native_Food_App
-Full single vendor food app using react native
+The Food Delivery App is created using React Native with support of few other popular third party libraries
+
+Icon Libraries
+
+Dependencies
+
+React Navigation
+Stack Navigator
+Bottom Tab Navigator
+React Native Vector Icons
+Lottie React Native
+Axios
+React Native Async Storage
+Redux
+React Redux
+Redux Thunk
+React Native Maps
+
+UI Design
+
