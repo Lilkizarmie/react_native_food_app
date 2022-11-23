@@ -70,3 +70,18 @@ User Flow
         </tr>
     </table>
 </div>
+
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:20px">
+        	    <img src="https://github.com/Lilkizarmie/React_Native_Food_App/blob/codeverse/mockup-design/onboardtoauth.png" width="500"/>
+              <h2>Authentication screen</h2>
+      	    </td>
+            <td style="padding:20px">
+            	<img src="https://github.com/Lilkizarmie/React_Native_Food_App/blob/codeverse/mockup-design/tracking.png" width="500"/>
+              <h2>Track Order screen</h2>
+            </td>
+        </tr>
+    </table>
+</div>
