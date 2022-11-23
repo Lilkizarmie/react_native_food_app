@@ -56,6 +56,7 @@ User Flow
   style="display: inline-block; margin: 0 auto; width: 600px; height: 400px">
   
   Producct Details Screen
+  
   <img
   src="https://github.com/Lilkizarmie/React_Native_Food_App/blob/codeverse/mockup-design/product_details.png"
   alt="Alt text"
