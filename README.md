@@ -55,7 +55,7 @@ User Flow
   title="Optional title"
   style="display: inline-block; margin: 0 auto; width: 600px; height: 400px">
   
-  Producct Details Screen
+  Product Details Screen
   
   <img
   src="https://github.com/Lilkizarmie/React_Native_Food_App/blob/codeverse/mockup-design/product_details.png"
