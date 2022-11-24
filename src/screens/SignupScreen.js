@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
   Image,
 } from 'react-native';
-import {Colors, Fonts, Images} from '../contants';
+import {Colors, Images} from '../contants';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import {Separator} from '../components';
@@ -16,6 +16,7 @@ import {Display} from '../utils';
 import Feather from 'react-native-vector-icons/Feather';
 import {AuthenicationService} from '../services';
 import LottieView from 'lottie-react-native';
+import { useFonts } from 'expo-font';
 
 const inputStyle = state => {
   switch (state) {
@@ -113,6 +114,23 @@ const SignupScreen = ({navigation}) => {
       });
     }
   };
+
+  const [fontsLoaded] = useFonts({
+    'Poppins Black': require('../assets/fonts/Poppins-Black.ttf'),
+    'Poppins Bold': require('../assets/fonts/Poppins-Bold.ttf'),
+    'Poppins Extra Bold': require('../assets/fonts/Poppins-ExtraBold.ttf'),
+    'Poppins Extra Light': require('../assets/fonts/Poppins-ExtraLight.ttf'),
+    'Poppins Light': require('../assets/fonts/Poppins-Light.ttf'),
+    'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
+    'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
+    'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
+    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+  });
+
+  if (!fontsLoaded) {
+    return null;
+  }
+
 
   return (
     <View style={styles.container}>
@@ -247,14 +265,14 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 20,
-    fontFamily: Poppins Medium,
+    fontFamily: 'Poppins Medium',
     lineHeight: 20 * 1.4,
     width: Display.setWidth(80),
     textAlign: 'center',
   },
   title: {
     fontSize: 20,
-    fontFamily: Poppins Medium,
+    fontFamily: 'Poppins Medium',
     lineHeight: 20 * 1.4,
     marginTop: 50,
     marginBottom: 10,
@@ -262,7 +280,7 @@ const styles = StyleSheet.create({
   },
   content: {
     fontSize: 20,
-    fontFamily: Poppins Medium,
+    fontFamily: 'Poppins Medium',
     marginTop: 10,
     marginBottom: 20,
     marginHorizontal: 20,
@@ -301,13 +319,13 @@ const styles = StyleSheet.create({
     fontSize: 18,
     lineHeight: 18 * 1.4,
     color: Colors.DEFAULT_WHITE,
-    fontFamily: Poppins Medium,
+    fontFamily: 'Poppins Medium',
   },
   orText: {
     fontSize: 15,
     lineHeight: 15 * 1.4,
     color: Colors.DEFAULT_BLACK,
-    fontFamily: Poppins Medium,
+    fontFamily: 'Poppins Medium',
     marginLeft: 5,
     alignSelf: 'center',
     marginTop: 20,
@@ -339,7 +357,7 @@ const styles = StyleSheet.create({
     color: Colors.DEFAULT_WHITE,
     fontSize: 13,
     lineHeight: 13 * 1.4,
-    fontFamily: Poppins Medium,
+    fontFamily: 'Poppins Medium',
   },
   signinButtonLogoContainer: {
     backgroundColor: Colors.DEFAULT_WHITE,
@@ -356,7 +374,7 @@ const styles = StyleSheet.create({
     fontSize: 10,
     lineHeight: 10 * 1.4,
     color: Colors.DEFAULT_RED,
-    fontFamily: Poppins Medium,
+    fontFamily: 'Poppins Medium',
     marginHorizontal: 20,
     marginVertical: 3,
   },
