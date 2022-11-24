@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
-import {Colors} from '../contants';
+import {Colors} from '../constants';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {StaticImageService} from '../services';
@@ -38,7 +38,7 @@ const RestaurantCard = ({
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {

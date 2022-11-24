@@ -11,7 +11,7 @@ import {
 import {Separator, ToggleButton} from '../components';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Feather from 'react-native-vector-icons/Feather';
-import {Colors, Images} from '../contants';
+import {Colors, Images} from '../constants';
 import {Display} from '../utils';
 import {AuthenicationService, StorageService} from '../services';
 import LottieView from 'lottie-react-native';
@@ -55,7 +55,7 @@ const SigninScreen = ({navigation}) => {
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {

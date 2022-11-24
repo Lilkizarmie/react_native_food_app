@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import {Colors} from '../contants';
+import {Colors} from '../constants';
 import { useFonts } from 'expo-font';
 
 const CategoryListItem = ({name, isActive, selectCategory}) => {
@@ -13,7 +13,7 @@ const CategoryListItem = ({name, isActive, selectCategory}) => {
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {ApiContants} from '../contants';
+import {ApiContants} from '../constants';
 import {getToken} from '../Store';
 import {authHeader} from '../utils/Generator';
 

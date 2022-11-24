@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import {Separator} from '../components';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import {Colors} from '../contants';
+import {Colors} from '../constants';
 import {Display} from '../utils';
 import { useFonts } from 'expo-font';
 
@@ -34,7 +34,7 @@ const VerificationScreen = ({
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 20,
-    fontFamily: Fonts.POPPINS_MEDIUM,
+    fontFamily: 'Poppins Medium',
     lineHeight: 20 * 1.4,
     width: Display.setWidth(80),
     textAlign: 'center',

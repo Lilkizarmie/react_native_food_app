@@ -8,7 +8,7 @@ import {
   ScrollView,
   TouchableOpacity,
 } from 'react-native';
-import {ApiContants, Colors, Images} from '../contants';
+import {ApiContants, Colors, Images} from '../constants';
 import {FoodService, StaticImageService} from '../services';
 import {Display} from '../utils';
 import {Separator} from '../components';
@@ -55,7 +55,7 @@ const FoodScreen = ({
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {

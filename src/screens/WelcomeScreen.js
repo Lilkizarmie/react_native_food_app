@@ -7,7 +7,7 @@ import {
   FlatList,
   TouchableOpacity,
 } from 'react-native';
-import {Colors, General} from '../contants';
+import {Colors, General} from '../constants';
 import {WelcomeCard, Separator} from '../components';
 import {Display} from '../utils';
 import {StorageService} from '../services';
@@ -64,13 +64,13 @@ const WelcomeScreen = ({navigation}) => {
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {
     return null;
   }
-
+  
   return (
     <View style={styles.container}>
       <StatusBar

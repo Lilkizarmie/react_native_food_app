@@ -10,7 +10,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import {CategoryListItem, FoodCard, Separator} from '../components';
-import {ApiContants, Colors, Images} from '../contants';
+import {ApiContants, Colors, Images} from '../constants';
 import {RestaurantService, StaticImageService} from '../services';
 import {Display} from '../utils';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -94,7 +94,7 @@ const RestaurantScreen = ({
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {

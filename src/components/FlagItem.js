@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
-import {Colors} from '../contants';
+import {Colors} from '../constants';
 import {StaticImageService} from '../services';
 import { useFonts } from 'expo-font';
 
@@ -14,7 +14,7 @@ const FlagItem = ({code, name, dial_code, onPress}) => {
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {

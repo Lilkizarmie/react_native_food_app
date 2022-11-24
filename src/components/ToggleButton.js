@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {TouchableOpacity, Animated, StyleSheet, Easing} from 'react-native';
-import {Colors} from '../contants';
+import {Colors} from '../constants';
 
 const containerStyle = (size, isActive) => ({
   backgroundColor: isActive ? Colors.DEFAULT_GREEN : Colors.DEFAULT_GREY,

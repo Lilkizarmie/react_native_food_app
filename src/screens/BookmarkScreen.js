@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet, StatusBar, FlatList} from 'react-native';
-import {Colors, Fonts} from '../contants';
+import {Colors, Fonts} from '../constants';
 import {BookmarkCard, Separator} from '../components';
 import {Display} from '../utils';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -29,7 +29,7 @@ const BookmarkScreen = ({navigation}) => {
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {

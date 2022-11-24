@@ -8,7 +8,7 @@ import {
 } from '../screens';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {Display} from '../utils';
-import {Colors} from '../contants';
+import {Colors} from './';
 
 const BottomTabs = createBottomTabNavigator();
 

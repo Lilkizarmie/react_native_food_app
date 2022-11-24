@@ -1,4 +1,4 @@
-import {ApiContants} from '../contants';
+import {ApiContants} from '../constants';
 import axios from 'axios';
 import {authHeader} from '../utils/Generator';
 import {getToken} from '../Store';

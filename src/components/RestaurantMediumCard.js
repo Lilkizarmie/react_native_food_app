@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import {Colors, Images} from '../contants';
+import {Colors, Images} from '../constants';
 import {StaticImageService} from '../services';
 import {Display} from '../utils';
 import { useFonts } from 'expo-font';
@@ -16,7 +16,7 @@ const RestaurantMediumCard = ({name, images: {logo}, time, distance, tags}) => {
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {

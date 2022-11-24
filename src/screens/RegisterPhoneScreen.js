@@ -9,7 +9,7 @@ import {
   TextInput,
   FlatList,
 } from 'react-native';
-import {Colors, CountryCode} from '../contants';
+import {Colors, CountryCode} from '../constants';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {FlagItem, Separator} from '../components';
 import {Display} from '../utils';
@@ -50,7 +50,7 @@ const RegisterPhoneScreen = ({navigation}) => {
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {

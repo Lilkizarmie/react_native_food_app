@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import {ApiContants, Colors} from '../contants';
+import {ApiContants, Colors} from '../constants';
 import {StaticImageService} from '../services';
 import {Display} from '../utils';
 import {useDispatch} from 'react-redux';
@@ -29,7 +29,7 @@ const FoodCard = ({id, name, description, price, image, navigate}) => {
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {

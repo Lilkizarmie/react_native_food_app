@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
   Image,
 } from 'react-native';
-import {Colors, Fonts, Images} from '../contants';
+import {Colors, Fonts, Images} from '../constants';
 import {FoodCard, Separator} from '../components';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Entypo from 'react-native-vector-icons/Entypo';
@@ -28,7 +28,7 @@ const CartScreen = ({navigation}) => {
     'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
     'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
     'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
-    'PoppinsThin': require('../assets/fonts/Poppins Thin.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
   });
 
   if (!fontsLoaded) {

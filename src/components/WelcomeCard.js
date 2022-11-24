@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
 import {Display} from '../utils';
-import {Images} from '../contants';
+import {Images} from '../constants';
 import { useFonts } from 'expo-font';
 
 

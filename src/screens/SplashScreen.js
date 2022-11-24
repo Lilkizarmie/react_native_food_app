@@ -1,9 +1,22 @@
 import React from 'react';
 import {View, Text, StyleSheet, StatusBar, Image} from 'react-native';
-import {Colors, Images, Fonts} from '../contants';
+import {Colors, Images} from '../constants';
 import {Display} from '../utils';
+import { useFonts } from 'expo-font';
 
 const SplashScreen = () => {
+  const [fontsLoaded] = useFonts({
+    'Poppins Light': require('../assets/fonts/Poppins-Light.ttf'),
+    'Poppins Medium': require('../assets/fonts/Poppins-Medium.ttf'),
+    'Poppins Regular': require('../assets/fonts/Poppins-Regular.ttf'),
+    'Poppins Semi Bold': require('../assets/fonts/Poppins-SemiBold.ttf'),
+    'Poppins Thin': require('../assets/fonts/Poppins-Thin.ttf'),
+  });
+  
+  if (!fontsLoaded) {
+    return null;
+  }
+
   return (
     <View style={styles.container}>
       <StatusBar
@@ -16,6 +29,8 @@ const SplashScreen = () => {
     </View>
   );
 };
+
+
 
 const styles = StyleSheet.create({
   container: {
@@ -31,7 +46,7 @@ const styles = StyleSheet.create({
   titleText: {
     color: Colors.DEFAULT_WHITE,
     fontSize: 32,
-    fontFamily: Poppins light,
+    fontFamily: 'Poppins light',
   },
 });
 
