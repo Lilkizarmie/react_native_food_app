@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
   titleText: {
     color: Colors.DEFAULT_WHITE,
     fontSize: 32,
-    fontFamily: 'Poppins light',
+    fontFamily: 'Poppins Light',
   },
 });
 

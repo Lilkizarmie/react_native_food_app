@@ -9,6 +9,7 @@ const WelcomeCard = ({title, content, image}) => {
   const [fontsLoaded] = useFonts({
     'Poppins Black': require('../assets/fonts/Poppins-Black.ttf'),
     'Poppins Bold': require('../assets/fonts/Poppins-Bold.ttf'),
+    'Poppins light': require('../assets/fonts/Poppins-Light.ttf'),
   });
 
   if (!fontsLoaded) {

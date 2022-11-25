@@ -71,11 +71,6 @@ const SigninScreen = ({navigation}) => {
       />
       <Separator height={StatusBar.currentHeight} />
       <View style={styles.headerContainer}>
-        <Ionicons
-          name="chevron-back-outline"
-          size={30}
-          onPress={() => navigation.goBack()}
-        />
         <Text style={styles.headerTitle}>Sign In</Text>
       </View>
       <Text style={styles.title}>Welcome</Text>
@@ -193,7 +188,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontFamily: 'Poppins Medium',
     lineHeight: 20 * 1.4,
-    width: Display.setWidth(80),
+    width: Display.setWidth(90),
     textAlign: 'center',
   },
   title: {

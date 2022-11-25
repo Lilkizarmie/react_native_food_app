@@ -49,8 +49,10 @@ const login = async user => {
 };
 
 const checkUserExist = async (type, value) => {
+  console.log( ApiContants.BACKEND_API.USER_EXIST);
   try {
     let params = {[type]: value};
+    console.log( params);
     let userCheckResponse = await AuthRequest.get(
       ApiContants.BACKEND_API.USER_EXIST,
       {params},

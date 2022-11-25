@@ -245,7 +245,7 @@ const styles = StyleSheet.create({
   },
   emptyCartText: {
     fontSize: 30,
-    fontFamily: 'Poppins light',
+    fontFamily: 'Poppins Light',
     lineHeight: 30 * 1.4,
     color: Colors.DEFAULT_GREEN,
   },
